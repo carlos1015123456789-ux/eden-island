@@ -1,0 +1,17 @@
+.west-hero .west-sub{font-weight:780;margin-top:.6rem;color:#ffdd9b;letter-spacing:.06em}
+.west-jump{justify-content:flex-start}
+.west-section{padding-bottom:clamp(38px,6vw,70px)}
+.west-grid{display:grid;gap:1rem;margin-top:1.4rem}
+.west-card{overflow:hidden;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);scroll-margin-top:1rem}
+.west-card>img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block;background:#2a625f}
+.west-copy{padding:clamp(1.05rem,3vw,1.9rem)}
+.west-copy h3{font-size:clamp(1.3rem,2.5vw,1.85rem)}
+.west-tag{display:inline-block;padding:.25rem .63rem;margin:.8rem .31rem 0 0;max-width:100%;border-radius:999px;background:#e9f4ed;color:#1c453a;font-size:.75rem;font-weight:700}
+.west-text{border-top:3px solid #92afa4}
+.west-night{position:relative;isolation:isolate;min-height:clamp(390px,49vw,525px);display:grid;align-items:end;overflow:hidden;border-radius:var(--radius);background:#0c292f;color:white;scroll-margin-top:1rem}
+.west-night>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.west-night:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#061c23f0 0%,#10272d95 45%,transparent 88%);z-index:-1}
+.west-night .west-copy{max-width:44rem;padding:clamp(1.15rem,4vw,3.2rem)}
+.west-night .west-tag{color:#fff4d6;background:#0d3038;border:1px solid #f9dc98a1}
+.west-arrival .fine{margin-top:1rem}
+@media(min-width:680px){.west-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
